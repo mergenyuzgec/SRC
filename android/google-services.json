@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "682266962440",
+    "firebase_url": "https://sosyal-surucu-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sosyal-surucu",
+    "storage_bucket": "sosyal-surucu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682266962440:android:bad1a9f1a3a6cf54fd7fbd",
+        "android_client_info": {
+          "package_name": "com.example.sosyal_surucu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682266962440-m3e8o7vdf7l6l3eh16d6njj2g5fo26e2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sosyal_surucu",
+            "certificate_hash": "70ca4fb9fd9e8da510de3ff182f1f22a9b4355be"
+          }
+        },
+        {
+          "client_id": "682266962440-9s01n1m3bc0bc3tjsfa1geuplhf4jrq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZC7vGZgl5ImfD8qE02-gA-e8qcOz9up0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682266962440-9s01n1m3bc0bc3tjsfa1geuplhf4jrq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
