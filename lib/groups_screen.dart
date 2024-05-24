@@ -3,17 +3,19 @@ import 'package:sosyal_surucu/group_add_request_screen.dart';
 import 'package:sosyal_surucu/platform_screen.dart';
 
 class GroupsScreen extends StatelessWidget {
+  const GroupsScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Gruplar'),
+        title: const Text('Gruplar'),
         actions: [
           TextButton(
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => GroupAddRequestScreen()),
+                MaterialPageRoute(builder: (context) => const GroupAddRequestScreen()),
               );
             },
             child: Text(
@@ -40,7 +42,7 @@ class GroupsScreen extends StatelessWidget {
 
   Widget _buildGroupCard(BuildContext context, String title, IconData icon) {
     return Card(
-      margin: EdgeInsets.all(8.0),
+      margin: const EdgeInsets.all(8.0),
       child: InkWell(
         onTap: () {
           Navigator.push(
@@ -54,7 +56,7 @@ class GroupsScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(icon, size: 50),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Text(title, textAlign: TextAlign.center),
           ],
         ),

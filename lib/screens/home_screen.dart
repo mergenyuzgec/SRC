@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:sosyal_surucu/profile_screen.dart';
-import 'package:sosyal_surucu/news_screen.dart';
-import 'package:sosyal_surucu/help_screen.dart';
-import 'package:sosyal_surucu/groups_screen.dart';
-import 'package:sosyal_surucu/login_screen.dart';
+import 'package:sosyal_surucu/screens/profile_screen.dart';
+import 'package:sosyal_surucu/screens/news_screen.dart';
+import 'package:sosyal_surucu/screens/help_screen.dart';
+import 'package:sosyal_surucu/screens/groups_screen.dart';
+import 'package:sosyal_surucu/screens/login_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
